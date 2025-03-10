@@ -1,0 +1,227 @@
+.d-flex {/*general classes*/
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.pl-40{
+  padding-left: 40px;
+}
+
+.g-50{
+  gap: 50px;
+}
+
+.g-10{
+  gap: 10px;
+}
+
+.h-calc{
+  height: calc(100vh - 93px - 40px);
+}
+
+.border-none{
+  border: none;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.text-start {
+  text-align: left;
+}
+
+.text-end {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-weight-bold {
+  font-weight: 600;
+}
+
+.font-weight-bold-500 {
+  font-weight: 500;
+}
+
+.fst-italic{
+  font-style: italic;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.h-40{
+  height: 40px;
+}
+
+.h-93{
+  height: 93px;
+}
+
+.fs-15{
+  font-size: 15px;
+}
+
+.fs-16{
+  font-size: 16px;
+}
+
+.fs-18{
+  font-size: 18px;
+}
+
+.fs-20{
+  font-size: 20px;
+}
+
+.fs-24{
+  font-size: 24px;
+}
+
+.fs-48{
+  font-size: 48px;
+}
+
+.fs-36{
+  font-size: 36px;
+}
+
+.font-color{
+  color: var(--font-color);
+}
+
+.blue-btn-color{
+  background-color: var(--blue-btn-color);
+}
+
+.pink-bg-color{
+  background-color: var(--pink-bg-color);
+}
+
+.pink-color{
+  color: var(--pink-bg-color);
+}
+
+.bg-color{
+  background-color: var(--bg-color);
+}
+
+.w-100{
+  width: 100%;
+}
+
+.w-131{
+  width: 131px;
+}
+
+.w-300{
+  width: 300px;
+}
+
+.h-375{
+  height: 375px;
+}
+
+.white-color{
+  color: var(--white-color);
+}
+
+.white-bg-color{
+  background-color: var(--white-color);
+}
+
+.h-520{
+  height: 520px;
+}
+
+.h-100{
+  height: 100%;
+}
+
+.w-420{
+  width: 420px;
+}
+
+.w-570{
+  width: 570px;
+}
+
+.h-100-vh{
+  height: 100vh;
+}
+
+.h-160-vh{
+  height: 160vh;
+}
+
+.h-70{
+  height: 70px;
+}
+
+.w-240{
+  width: 240px;
+}
+
+.h-50{
+  height: 50px;
+}
+
+.brown-bg-color{
+  background-color: var(--brown-btn-color);
+}
+
+.border-color{
+  color: var(--border-color);
+}
+
+.object-fit-cover{
+  object-fit: cover;
+}

@@ -1,0 +1,118 @@
+@import url(/styles/style.css);
+
+/*---nav----*/
+nav li ul {/*nav ul*/
+  cursor: pointer;
+  transition: color 0.3s;
+  position: relative;
+}
+nav li ul::after {/*nav ul after*/
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 95%;
+  height: 2px;
+  background-color: var(--brown-btn-color);
+  transform: translateX(-50%) scaleX(0);
+  transition: transform 0.3s;
+}
+nav li ul:hover::after {/*nav ul hover*/
+  transform: translateX(-50%) scaleX(1);
+}
+nav select {/*nav select*/
+  outline: none;
+}
+nav button {/*nav button*/
+  border-radius: 71px;
+  -webkit-border-radius: 71px;
+  -moz-border-radius: 71px;
+  -ms-border-radius: 71px;
+  -o-border-radius: 71px;
+  transition: background-color 1s ease;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  -ms-transition: background-color 1s ease;
+  -o-transition: background-color 1s ease;
+}
+nav button:hover {/*nav button hover*/
+  background-color: var(--brown-btn-color);
+}
+/*---end nav----*/
+
+/*---offer banner----*/
+.discount-coupon{/*discount coupon square*/
+  position: absolute;
+}
+.discount-coupon :first-child{/*discount coupon left*/
+  width: 480px;
+  height: 70px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  background-color: var(--white-color);
+  border: 3px solid var(--border-color);
+  border-top: 3px solid var(--white-color);
+}
+
+.discount-coupon :last-child{/*discount coupon right*/
+  width: 580px;
+  height: 70px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border: 3px solid var(--border-color);
+  background-color: var(--brown-btn-color);
+  margin-left: -150px;
+  z-index: 100;
+}
+/*---end offer banner----*/
+
+/*---cards----*/
+.cards .card{/*card*/
+  border-radius: 28px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -ms-border-radius: 28px;
+  -o-border-radius: 28px;
+  border: 3px solid var(--white-color);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.cards .card img{/*card image*/
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+}
+/*---end cards----*/
+
+/*---spring square----*/
+.spring-square{/*spring square*/
+  background-color: var(--white-color);
+  border: 3px solid var(--border-color);
+  border-radius: 36px;
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  -ms-border-radius: 36px;
+  -o-border-radius: 36px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+/*---end spring square----*/
+
+/*---more items square----*/
+.more-items-square{/*more items square*/
+  border-radius: 29px;
+  -webkit-border-radius: 29px;
+  -moz-border-radius: 29px;
+  -ms-border-radius: 29px;
+  -o-border-radius: 29px;
+  border: 3px solid var(--white-color);
+  transition: background-color 1s ease;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  -ms-transition: background-color 1s ease;
+  -o-transition: background-color 1s ease;
+  box-shadow: 0px 4px 0 0px rgb(161, 161, 161);
+}
+
+.more-items-square:hover{/*more items square*/
+  background-color: var(--blue-btn-color);
+}
+/*---end more items square----*/

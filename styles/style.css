@@ -1,0 +1,26 @@
+@import url(/styles/class.css);
+@import url(/styles/dots.css);
+@import url(/styles/vars.css);
+
+* {/*initial settings*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+html, body, main {
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color);
+}
+
+header{
+    color: var(--header-font-color);
+    background-color: var(--pink-bg-color);
+}
+
+nav{
+    background-color: var(--white-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
