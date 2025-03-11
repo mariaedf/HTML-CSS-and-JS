@@ -1,0 +1,36 @@
+/*---nav----*/
+nav li ul {/*nav ul*/
+  cursor: pointer;
+  transition: color 0.3s;
+  position: relative;
+}
+nav li ul::after {/*nav ul after*/
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 95%;
+  height: 2px;
+  background-color: var(--brown-btn-color);
+  transform: translateX(-50%) scaleX(0);
+  transition: transform 0.3s;
+}
+nav li ul:hover::after {/*nav ul hover*/
+  transform: translateX(-50%) scaleX(1);
+}
+nav button {/*nav button*/
+  border-radius: 71px;
+  -webkit-border-radius: 71px;
+  -moz-border-radius: 71px;
+  -ms-border-radius: 71px;
+  -o-border-radius: 71px;
+  transition: background-color 1s ease;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  -ms-transition: background-color 1s ease;
+  -o-transition: background-color 1s ease;
+}
+nav button:hover {/*nav button hover*/
+  background-color: var(--brown-btn-color);
+}
+/*---end nav----*/

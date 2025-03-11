@@ -1,0 +1,13 @@
+/*---more items square----*/
+.more-items-square {/*more items square*/ 
+  transition: background-color 1s ease;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  -ms-transition: background-color 1s ease;
+  -o-transition: background-color 1s ease;
+}
+
+.more-items-square:hover {/*more items square*/
+  background-color: var(--blue-btn-color);
+}
+/*---end more items square----*/
