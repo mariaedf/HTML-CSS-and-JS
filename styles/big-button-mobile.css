@@ -1,0 +1,13 @@
+/*---big-button mobile----*/
+@media (max-width: 1290px) {
+    .big-button{/*big-button square*/
+        width: 100%;
+        padding: 0 10px 0 10px;
+    }
+
+    .big-button span:last-child{/*big-button last-child*/
+        font-size: 20px;
+    }
+}
+
+/*---end big-button mobile----*/
