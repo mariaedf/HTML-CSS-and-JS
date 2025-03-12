@@ -32,11 +32,11 @@
 
     <title>Teddy Shop</title>
   </head>
-  <body>
+  <body id="body">
     <!--main-->
     <main aria-label="Main">
       <!--page loading-->
-      <div id="dots" class="dots">
+      <div id="dots" class="dots bg-color position-fixed d-flex justify-content-center align-items-center h-100-vh" aria-label="Loading page">
         <div class="dot"></div>
         <div class="dot"></div>
         <div class="dot"></div>
@@ -52,18 +52,22 @@
       <!--end header-->
 
       <!--nav-->
-      <nav class="d-flex align-items-center justify-content-around h-93 p-1 white-bg-color box-shadow" aria-label="Nav">
-        <section class="d-flex align-items-center">
-          <!--logotype-->
-          <img src="../favicon.ico" alt="logotype" width="50" height="50" />
-          <!--logotype name-->
-          <div class="aligned-text d-flex justify-content-between flex-column fst-italic fs-24 font-weight-bold font-color">
-            <span class="text-start">Teddy</span>
-            <span class="text-end">Shop</span>
-          </div>
+      <nav class="d-flex align-items-center justify-content-around h-93 p-1 white-bg-color box-shadow" id="nav" aria-label="Nav">
+        <section class="logo-square d-flex align-items-center">
+          <section class="logo d-flex">
+            <!--logotype-->
+            <img src="../favicon.ico" alt="logotype" width="50" height="50" />
+            <!--logotype name-->
+            <div class="aligned-text d-flex justify-content-between flex-column fst-italic fs-24 font-weight-bold font-color" aria-label="Logotype name">
+              <span class="text-start">Teddy</span>
+              <span class="text-end">Shop</span>
+            </div>
+          </section>
+          <!--menu button-->
+          <i class="bi bi-list cursor-pointer d-none fs-24" aria-label="Menu button"></i>
         </section>
         <!--nav links-->
-        <li class="d-flex g-50 fs-18" aria-label="Nav links">
+        <li class="d-flex g-50 fs-18 nav-links" aria-label="Nav links">
           <ul>Home</ul>
           <ul>
             <select class="bg-transparent border-none cursor-pointer fs-18 outline-none">
@@ -77,15 +81,24 @@
           <ul>Marchi</ul>
           <ul>Carte regalo</ul>
           <ul>Chi siamo</ul>
-          <ul><i class="bi bi-search"></i></ul>
-          <ul><i class="bi bi-person"></i></ul>
-          <ul><i class="bi bi-heart"></i></ul>
-          <ul><i class="bi bi-handbag"></i></ul>
+          <ul class="icon"><img src="../img/search.png" alt="Search icon"></ul>
+          <ul class="icon"><img src="../img/user.png" alt="User icon"></ul>
+          <ul class="icon"><img src="../img/heart-icon.png" alt="Heart icon"></ul>
+          <ul class="icon"><img src="../img/shopping-bag.png" alt="Shopping bag"></ul>
         </li>
         <!--button-->
-        <button class="blue-btn-color border-none cursor-pointer white-color fs-16 p-2 w-131 transition br-71" title="Acquista ora">
+        <button class="nav-links-btn blue-btn-color border-none cursor-pointer white-color fs-16 p-2 w-131 transition br-71 d-flex justify-content-center" title="Acquista ora">
           Acquista ora
         </button>
+        <!--mobile icons-->
+        <div class="mobile-icons d-none white-bg-color w-100 list-style-none position-fixed bottom-0 flex-row font-color h-50 box-shadow" aria-label="Icons">
+          <li class="w-100 d-flex align-items-center justify-content-around">
+            <ul><img src="../img/search.png" alt="Search icon"></ul>
+            <ul><img src="../img/user.png" alt="User icon"></ul>
+            <ul><img src="../img/heart-icon.png" alt="Heart icon"></ul>
+            <ul><img src="../img/shopping-bag.png" alt="Shopping bag"></ul>
+          </li>
+        </div>
       </nav>
       <!--end nav-->
 
@@ -477,5 +490,5 @@
   </body>
 </html>
 <!--links JavaScript-->
-<script src="../scripts/dots.js"></script>
-<script src="../scripts/script.js"></script>
+<script src="../scripts/dots.js" defer></script>
+<script src="../scripts/nav.js" defer></script>

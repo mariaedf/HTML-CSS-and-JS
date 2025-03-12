@@ -3,12 +3,18 @@
 @import url(../styles/vars.css);
 @import url(../styles/nav.css);
 @import url(../styles/more-items-square.css);
+@import url(../styles/nav-mobile.css);
+@import url(../styles/header-mobile.css);
 
 * {/*initial settings*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
+}
+
+body{
+    overflow: hidden;/*when the page loads*/
 }
 
 html, body, main {

@@ -484,6 +484,17 @@
 
 /*---------end border----------*/
 
+/*---------position----------*/
+.position-absolute{
+  position: absolute;
+}
+
+.position-fixed{
+  position: fixed;
+}
+
+/*---------end position----------*/
+
 /*---------others----------*/
 .fst-italic{
   font-style: italic;
@@ -491,10 +502,6 @@
 
 .list-style-none{
   list-style: none;
-}
-
-.position-absolute{
-  position: absolute;
 }
 
 .outline-none{

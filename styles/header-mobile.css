@@ -1,0 +1,9 @@
+/*---header mobile----*/
+@media (max-width: 1280px) {
+    header p:first-child,
+    header p:last-child{/*hiding first and last item*/
+        display: none;
+    }
+}
+
+/*---end header mobile----*/
