@@ -95,9 +95,6 @@
 /*---------end padding----------*/
 
 /*---------height----------*/
-.h-calc{
-  height: calc(100vh - 93px - 40px);
-}
 
 .line-height{
   line-height: 1.6;

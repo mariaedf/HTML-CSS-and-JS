@@ -3,8 +3,11 @@
 @import url(../styles/vars.css);
 @import url(../styles/nav.css);
 @import url(../styles/more-items-square.css);
+
+/*---------------mobile---------------*/
 @import url(../styles/nav-mobile.css);
 @import url(../styles/header-mobile.css);
+@import url(../styles/offer-banner-mobile.css);
 
 * {/*initial settings*/
     padding: 0;

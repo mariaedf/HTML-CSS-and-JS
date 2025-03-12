@@ -1,0 +1,18 @@
+/*---offer-banner mobile----*/
+@media (max-width: 1290px) {
+    .discount-coupon{/*discount-coupon*/
+        padding: 0 10px 0 10px;
+        font-size: 15px;
+    }
+    .discount-coupon span:first-child{/*discount-coupon first-child*/
+        display: none;
+    }
+    .discount-coupon span:last-child{/*discount-coupon last-child*/
+        width: fit-content;
+        padding: 0 10px 0 10px;
+        margin-left: 0;
+        height: fit-content;
+    }
+}
+
+/*---end offer-banner mobile----*/
