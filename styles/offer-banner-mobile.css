@@ -3,6 +3,7 @@
     .discount-coupon{/*discount-coupon*/
         padding: 0 10px 0 10px;
         font-size: 15px;
+        z-index: 10;
     }
     .discount-coupon span:first-child{/*discount-coupon first-child*/
         display: none;

@@ -42,10 +42,18 @@
   .mobile-icons,/*icons*/
   .mobile-icons li {
     display: flex;
+    z-index: 100;
   }
 
   nav.expanded {/*nav new height*/
-    height: 100vh;
+    height: calc(100vh - 40px - 50px);/*header= 40px; bottom icons= 50px*/
+  }
+}
+
+/*---max-height: 640px----*/
+@media(max-height: 640px){
+  nav.expanded {/*nav new height*/
+    height: auto;
   }
 }
 
