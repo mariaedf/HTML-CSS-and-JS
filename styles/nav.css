@@ -1,10 +1,10 @@
 /*---nav----*/
-nav li ul {/*nav ul*/
+nav ul li {/*nav ul*/
   cursor: pointer;
   transition: color 0.3s;
   position: relative;
 }
-nav li ul::after {/*nav ul after*/
+nav ul li::after {/*nav ul after*/
   content: "";
   position: absolute;
   left: 50%;
@@ -15,7 +15,7 @@ nav li ul::after {/*nav ul after*/
   transform: translateX(-50%) scaleX(0);
   transition: transform 0.3s;
 }
-nav li ul:hover::after {/*nav ul hover*/
+nav ul li:hover::after {/*nav ul hover*/
   transform: translateX(-50%) scaleX(1);
 }
 nav button:hover {/*nav button hover*/
