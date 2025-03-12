@@ -1,5 +1,5 @@
 /*---nav mobile----*/
-@media (max-width: 1280px) {
+@media (max-width: 1290px) {
   #nav {/*nav*/
     justify-content: center;
     flex-direction: column;
