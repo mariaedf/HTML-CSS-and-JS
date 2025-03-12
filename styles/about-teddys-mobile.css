@@ -1,0 +1,15 @@
+/*---about-teddys mobile----*/
+@media (max-width: 1290px) {
+    .about-teddys .mobile-text{/*mobile-text*/
+        font-size: 20px;
+    }
+    .about-teddys .cards{/*cards*/
+        flex-direction: column;
+    }
+
+    .about-teddys .cards .card{/*card*/
+        width: 100%;
+    }
+}
+
+/*---end about-teddys mobile----*/
