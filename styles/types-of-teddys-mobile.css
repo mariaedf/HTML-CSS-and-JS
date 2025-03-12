@@ -1,0 +1,21 @@
+/*---types-of-teddys-square mobile----*/
+@media (max-width: 1290px) {
+    .types-of-teddys-square .text-mobile{/*title*/
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .types-of-teddys-square .cards{/*cards*/
+        flex-direction: column;
+    }
+
+    .types-of-teddys-square .cards .card{/*card*/
+        width: 100%;
+    }
+
+    .types-of-teddys-square .cards .card img{/*card image*/
+        object-fit:contain;
+        background-color: var(--bg-color);
+    }
+}
+
+/*---end types-of-teddys-square mobile----*/
