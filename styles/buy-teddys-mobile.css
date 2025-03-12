@@ -1,0 +1,12 @@
+/*---buy-teddys-2 mobile----*/
+@media (max-width: 1290px) {
+    .buy-teddys-square-2 .cards{/*cards*/
+        flex-direction: column;
+    }
+
+    .buy-teddys-square-2 .cards .card{/*card*/
+        width: 100%;
+    }
+}
+
+/*---end buy-teddys-2 mobile----*/
