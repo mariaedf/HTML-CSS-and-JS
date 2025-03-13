@@ -1,0 +1,11 @@
+/*---customers square----*/
+@media (max-width: 1290px) {
+    .customers .cards{/*cards*/
+        flex-direction: column;
+    }
+
+    .customers .cards .card{/*card*/
+        width: 100%;
+    }
+}
+/*---end customers square----*/

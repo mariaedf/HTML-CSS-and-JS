@@ -1,7 +1,7 @@
 /*---big-button mobile----*/
 @media (max-width: 1290px) {
     .big-button{/*big-button square*/
-        width: 100%;
+        width: 90%;
         padding: 0 10px 0 10px;
     }
 

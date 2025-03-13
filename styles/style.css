@@ -1,6 +1,9 @@
+/*---------------general---------------*/
 @import url(../styles/class.css);
 @import url(../styles/dots.css);
 @import url(../styles/vars.css);
+
+/*---------------web---------------*/
 @import url(../styles/nav.css);
 @import url(../styles/more-items-square.css);
 
@@ -13,6 +16,7 @@
 @import url(../styles/about-teddys-mobile.css);
 @import url(../styles/buy-teddys-mobile.css);
 @import url(../styles/tips-mobile.css);
+@import url(../styles/customers-mobile.css);
 
 
 * {/*initial settings*/
@@ -26,7 +30,7 @@ body{
     overflow: hidden;/*when the page loads*/
 }
 
-html, body, main {
+html, body, main {/*general*/
     width: 100%;
     height: 100%;
     background-color: var(--bg-color);
