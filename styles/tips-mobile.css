@@ -1,0 +1,48 @@
+/*---tips mobile----*/
+@media (max-width: 1290px) {
+    .tips span:first-child{/*---title----*/
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+
+    .tips span:first-child img{/*---title image----*/
+        width: 20px;
+        height: 20px;
+    }
+
+    .tips-cards{/*---cards----*/
+        flex-direction: column;
+        height: auto;
+    }
+
+    .gift-text{/*---title of the first card----*/
+        font-size: 24px;
+    }
+
+    .section1,/*---all cards----*/
+    .section2 section:first-child,
+    .section2 section:last-child,
+    .section2 section div,
+    .section2 section div{
+        width: 100%;
+        font-size: 15px;
+        flex-direction: column;
+    }
+
+    .section2 section div img,
+    .section2 section div img{/*---cards images----*/
+        border-top-left-radius: 19px;
+        border-top-right-radius: 19px;
+        border-bottom-left-radius: 0;
+    }
+
+    .section2 section:first-child div:last-child,
+    .section2 section:last-child div:last-child{/*---cards texts----*/
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 19px;
+        border-bottom-right-radius: 19px;
+    }
+}
+
+/*---end tips mobile----*/
