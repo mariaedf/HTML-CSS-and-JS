@@ -492,6 +492,17 @@
 
 /*---------end position----------*/
 
+/*---------margin----------*/
+.m-t{
+  margin-top: 1rem;
+}
+
+.m-b{
+  margin-bottom: 1rem;
+}
+
+/*---------end margin----------*/
+
 /*---------others----------*/
 .fst-italic{
   font-style: italic;
