@@ -5,7 +5,11 @@
     flex-direction: column;
     overflow: hidden;
     transition: height 0.3s ease;
-  }
+    -webkit-transition: height 0.3s ease;
+    -moz-transition: height 0.3s ease;
+    -ms-transition: height 0.3s ease;
+    -o-transition: height 0.3s ease;
+}
 
   .logo-square {/*logo square*/
     justify-content: space-between;

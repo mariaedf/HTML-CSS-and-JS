@@ -399,10 +399,16 @@
             <span class="fs-36 font-weight-bold-500">TeddyShop Newsletter</span>
             <p class="fs-16">Resta aggiornato sulle ultime novità, promozioni e offerte speciali.</p>
           </div>
-          <form action="" class="d-flex flex-column g-20">
+          <form id="emailForm" class="d-flex flex-column g-20">
             <div class="d-flex g-10">
-              <input type="email" name="" id="" placeholder="inserisci la tua email" class="p-3 form-border outline-none fs-16">
-              <button class="white-color brown-bg-color p-3 w-165 form-border cursor-pointer fs-16">Isciviti adesso</button>
+              <div class="d-flex flex-column">
+              <input type="email" name="email" id="email" placeholder="inserisci la tua email" class="p-3 form-border outline-none fs-16">
+              <p id="error-message" class="d-none"><small>❗ Si prega di inserire un indirizzo email valido.</small></p>
+            </div>
+            <div id="success-message" class="position-fixed d-none">
+              <p class="circle font-color white-bg-color w-300 h-300 br-50 position-absolute d-flex align-items-center justify-content-center"><small>Registrazione riuscita!😃✅</small></p>
+            </div>
+              <button type="submit" class="white-color brown-bg-color p-3 w-165 form-border cursor-pointer fs-16">Isciviti adesso</button>
             </div>
             <a href="#" class="fs-12 font-color">Iscrivendoti accetti la nostra Privacy Policy</a>
           </form>
@@ -481,3 +487,4 @@
 <script src="../scripts/nav.js" defer></script>
 <script src="../scripts/stars.js" defer></script>
 <script src="../scripts/dots.js" defer></script>
+<script src="../scripts/form.js" defer></script>

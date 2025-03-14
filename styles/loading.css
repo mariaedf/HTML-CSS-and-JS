@@ -1,4 +1,3 @@
-@import url(../styles/vars.css);
 .loading {/*page loading*/
   width: 100vw;
   z-index: 100;
@@ -21,8 +20,7 @@
   animation-delay: -0.16s;
 }
 
-@keyframes bounce {
-  /*animation*/
+@keyframes bounce {/*animation*/
   0%,
   100% {
     transform: translateY(0);
