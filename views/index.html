@@ -34,10 +34,10 @@
     <!--main-->
     <main aria-label="Main">
       <!--page loading-->
-      <div id="dots" class="dots bg-color position-fixed d-flex justify-content-center align-items-center h-100-vh" aria-label="Loading page">
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
+      <div id="loading" class="loading bg-color position-fixed d-flex justify-content-center align-items-center h-100-vh" aria-label="Loading page">
+        <div class="dot-loading"></div>
+        <div class="dot-loading"></div>
+        <div class="dot-loading"></div>
       </div>
       <!--end page loading-->
 
@@ -194,8 +194,7 @@
       <!--end types of Teddy's-->
   
       <!--about Teddy's-->
-      <section class="about-teddys blue-bg-color font-color d-flex justify-content-center align-items-center flex-column m-t" aria-label="About Teddy's">
-        
+      <section class="about-teddys blue-bg-color font-color d-flex justify-content-center align-items-center flex-column m-t m-b" aria-label="About Teddy's">
         <span class="fs-48 d-flex align-items-center mobile-text text-center m-t"><img src="../img/flower.svg" alt="Flower image">&nbsp;Ecco cosa possiamo fare per te&nbsp;<img src="../img/flower.svg" alt="Flower image"></span>
         <section class="cards d-flex w-100 justify-content-evenly g-50 p-10 font-color" aria-label="About Teddy's cards">
           <div class="card white-bg-color h-200 w-380 d-flex flex-column align-items-center p-2 border br-28 box-shadow">
@@ -233,12 +232,8 @@
           </div>
         </section>
 
-        <section class="points d-flex g-10 m-b" aria-label="Slide points">
-          <i class="bi bi-circle-fill fs-10 selected"></i>
-          <i class="bi bi-circle-fill fs-10"></i>
-          <i class="bi bi-circle-fill fs-10"></i>
-          <i class="bi bi-circle-fill fs-10"></i>
-          <i class="bi bi-circle-fill fs-10"></i>
+        <section class="dots-container d-flex g-10 p-10 m-b" aria-label="Slide points">
+          
         </section>
        
       </section>
@@ -246,7 +241,7 @@
 
       <!--types of Teddy's 2-->
       <section class="types-of-teddys-square-2 font-color d-flex align-items-center flex-column bg-color" aria-label="Types of Teddy's 2">
-        <section class="big-button w-570 h-70 white-bg-color d-flex justify-content-center align-items-center mt--35 br-36 border">
+        <section class="big-button w-570 h-70 white-bg-color d-flex justify-content-center align-items-center mt--50 br-36 border">
           <img src="../favicon.ico" alt="Flower image" width="50" height="50">
           <span class="fs-36 font-color fst-italic">&nbsp;I Peluche più ricercati</span>
         </section>
@@ -390,12 +385,8 @@
           </div>
         </section>
 
-        <section class="points d-flex g-10 m-b" aria-label="Slide points">
-          <i class="bi bi-circle-fill fs-10 selected"></i>
-          <i class="bi bi-circle-fill fs-10"></i>
-          <i class="bi bi-circle-fill fs-10"></i>
-          <i class="bi bi-circle-fill fs-10"></i>
-          <i class="bi bi-circle-fill fs-10"></i>
+        <section class="dots-container d-flex g-10 m-b" aria-label="Slide points">
+          
         </section>
         
       </section>
@@ -486,6 +477,7 @@
   </body>
 </html>
 <!--links JavaScript-->
-<script src="../scripts/dots.js" defer></script>
+<script src="../scripts/loading.js" defer></script>
 <script src="../scripts/nav.js" defer></script>
 <script src="../scripts/stars.js" defer></script>
+<script src="../scripts/dots.js" defer></script>
