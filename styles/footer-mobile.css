@@ -1,0 +1,26 @@
+/*---footer mobile----*/
+@media (max-width: 1290px) {
+    footer{/*footer*/
+        height: auto !important;
+        padding-bottom: 50px;
+    }
+    footer section:first-child,
+    footer section:nth-child(2),
+    footer section:last-child,
+    footer section:first-child form div{/*footer sections*/
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    footer section:first-child form div button{/*form button*/
+        width: 100%;
+    }
+
+    footer section:last-child section:first-child{/*footer bottom*/
+        display: none;
+        text-align: center;
+    }
+}
+
+/*---end footer mobile----*/

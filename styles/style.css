@@ -17,6 +17,7 @@
 @import url(../styles/buy-teddys-mobile.css);
 @import url(../styles/tips-mobile.css);
 @import url(../styles/customers-mobile.css);
+@import url(../styles/footer-mobile.css);
 
 
 * {/*initial settings*/
@@ -32,6 +33,7 @@ body{
 
 html, body, main {/*general*/
     width: 100%;
-    height: 100%;
+    height: auto;
     background-color: var(--bg-color);
+    overflow-x: hidden;
 }
