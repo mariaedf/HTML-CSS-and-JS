@@ -3,10 +3,12 @@
 @import url(../styles/loading.css);
 @import url(../styles/vars.css);
 @import url(../styles/message.css);
+@import url(../styles/logo.css);
 
 /*---------------web---------------*/
 @import url(../styles/nav.css);
 @import url(../styles/more-items-square.css);
+@import url(../styles/footer-menu.css);
 
 /*---------------mobile---------------*/
 @import url(../styles/nav-mobile.css);
