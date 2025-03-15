@@ -560,4 +560,8 @@
   -o-transition: background-color 1s ease;
 }
 
+.visible {
+  display: flex;
+}
+
 /*---------end others----------*/
