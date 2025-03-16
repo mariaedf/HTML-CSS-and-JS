@@ -18,7 +18,8 @@
   .footer-menu ul li:hover::after {/*footer ul hover*/
     transform: translateX(-50%) scaleX(1);
   }
-  .footer-menu button:hover {/*footer button hover*/
-    background-color: var(--brown-btn-color);
+ 
+  footer form button:hover {/*footer button hover*/
+    background-color: var(--blue-btn-color);
   }
   /*---end footer----*/

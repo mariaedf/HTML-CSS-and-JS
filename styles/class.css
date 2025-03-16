@@ -507,6 +507,50 @@
 
 /*---------end margin----------*/
 
+/*---------cards----------*/
+.card{
+  transition: all 0.3s ease;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/*---------end cards----------*/
+
+/*---------more-btn----------*/
+.more-btn{
+  transition: all 0.3s ease;
+}
+
+.more-btn:hover{
+  animation: shake 0.5s ease;
+  cursor: pointer;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  75% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*---------end more-btn----------*/
+
 /*---------others----------*/
 .fst-italic{
   font-style: italic;
